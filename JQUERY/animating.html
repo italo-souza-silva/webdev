@@ -1,0 +1,45 @@
+<html>
+	<head>
+		<title> Animating Content</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		
+		<style type="text/css">
+		#circle {
+			width : 200px;
+			height : 200px;
+			border-radius : 50%;
+			background-color : green;
+		
+		}
+		
+		
+		</style>
+	</head>
+	
+	<body>
+		<div id="circle"></div>
+	
+		<script type="text/javascript">
+			$("#circle").click(function() {
+				$("#circle").animate({
+				width : "400px",
+				height : "400px",
+				marginLeft : "100px",
+				marginTop : "100px",
+
+				} ,2000, function(){
+					$("#circle").css("background-color", "red");
+				});
+			
+			
+			
+			});
+		
+		
+		</script>
+	</body>
+
+
+
+
+</html>

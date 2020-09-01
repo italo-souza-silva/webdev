@@ -1,0 +1,28 @@
+<html>
+
+	<head>
+		<title>Fade Out/In</title>
+
+
+		
+		
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	</head>
+	<body>
+		<p>Just some random text.</p>
+		<button id="toggle">Click me!</button>
+		<script type="text/javascript">
+			$("#toggle").click(function() {
+			
+				if ($("p").css("display") == "none") {
+					$("p").fadeIn();				
+				}else {
+					$("p").fadeOut("slow");				
+				}			
+			
+			});
+		</script>
+	</body>
+
+</html>

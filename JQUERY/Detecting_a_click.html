@@ -1,0 +1,47 @@
+<html>
+
+	<head>
+		<title>Detecting a click</title>
+		<style type="text/css">
+		.shape {
+			width : 200px;
+			height : 200px;
+			position : relative;
+			float : left;
+			margin : 30px;
+		}
+		
+		.redSquare {
+			background-color : #FF0000;
+		
+		}
+		
+		.greenCircle {
+			border-radius : 50%;
+			background-color : #00FF00
+		}
+		
+		</style>
+		
+		
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	</head>
+	<body>
+	
+		<div class="shape redSquare"></div>
+		<div class="shape redSquare"></div>
+		<div class="shape greenCircle"></div>	
+		
+		<script type="text/javascript">
+			$(".greenCircle").click(function() {
+				alert("circle was clicked!")
+			});
+			$(".redSquare").click(function() {
+				alert("square was clicked!")
+			});			
+		
+		</script>
+	</body>
+
+</html>

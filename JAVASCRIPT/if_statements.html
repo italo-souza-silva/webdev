@@ -1,0 +1,27 @@
+<html>
+	<head>
+		<title>If statements</title>
+	</head>
+
+	<body>
+		<input id="safeword" type="password" placeholder="Type the magic word">
+		<button id="safebutton">Click here!</button>
+		
+	
+	
+		<script type="text/javascript">
+		document.getElementById("safebutton").onclick = function(){
+			var magicWord = "plimplim"
+			var safe = document.getElementById("safeword").value;
+			if (safe == magicWord) {
+				alert("You're right!");
+			}	else {
+				alert ("You're wrong!");
+			
+			}
+		}
+		</script>
+	</body>
+
+
+</html>

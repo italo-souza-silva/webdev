@@ -1,0 +1,46 @@
+	body {
+		font-family: "Times New Roman", Times, serif;
+		font-weight: bold;
+		
+	}
+
+	#wrapper {
+		width: 900px;
+		margin: 0px auto;		
+	}	
+	
+	.form {
+		margin: 15px; 	
+		font-size: 100%;
+	}
+	
+    label {
+        top:12px;
+        width:150px;        
+		position: relative;
+        float: left;		
+	}
+	
+	input {
+		padding: 5px;
+		width: 250px;
+		border: 1.1px gray solid;
+	}
+	
+	#button {
+		margin-left: 150px;
+		width: 100px;
+		
+	}
+	#accepted {
+	display: none;
+	color: green;
+	font-size: 90%;
+	}
+	
+	#error {
+	color: red;
+	font-size:90%;
+	padding:5px;
+		
+	}

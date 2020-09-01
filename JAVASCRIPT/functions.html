@@ -1,0 +1,56 @@
+<html>
+	<head>
+		<title>Functions</title>
+	</head>
+
+	<body>
+		<p>How many fingers are you holding up?</p>
+		<select id="qtGuess">
+			<option>0</option>
+			<option>1</option>
+			<option>2</option>
+			<option>3</option>
+			<option>4</option>
+			<option>5</option>
+		</select>
+		<button id="buttonGuess">Guess!</button>
+		
+		<script type="text/javascript">
+		
+			function fingerGuess(answer) {
+				var guess = Math.random();
+					guess = guess * 6;
+					guess = Math.floor(guess);
+					if (guess == answer) {
+						return (true);
+							
+					}	else {
+							return(false);
+					}
+			}
+			
+			document.getElementById("buttonGuess").onclick = function() {
+				
+				var myNumber = document.getElementById("qtGuess").value;
+					var verify = false;
+					var qt = 1;
+					while (verify == false) {
+						if (fingerGuess(myNumber) == true) {
+							verify = true;
+							alert("You're right! The number was "+ myNumber + ".It took "+qt+" guesses.");
+						
+						} else {
+							qt++;
+						
+						}
+					
+					}
+			
+			}
+
+
+		</script>
+	</body>
+
+
+</html>

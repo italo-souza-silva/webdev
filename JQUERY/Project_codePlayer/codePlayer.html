@@ -1,0 +1,33 @@
+<html>
+	<head>
+        
+        <title>jQuery</title>
+		
+		<link rel="stylesheet" type="text/css" href="codePlayer.css">
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>        
+       
+    </head>
+
+    <body>        
+        <div id="header">        
+            <div id="logo">            
+                CodePlayer                
+            </div>            
+            <div id="buttonContainer">                
+                <div class="toggleButton" id="html">HTML</div>                
+                <div class="toggleButton" id="css">CSS</div>                
+                <div class="toggleButton active" id="javascript">JavaScript</div>                
+                <div class="toggleButton active" id="output">Output</div>            
+            </div>        
+        </div>
+        
+        <div id="bodyContainer">        
+            <textarea id="htmlPanel" class="panel hidden" style="height: 550px; width: 667.5px;">&lt;p id="paragraph"&gt;Hello World!&lt;/p&gt;</textarea>            
+            <textarea id="cssPanel" class="panel hidden" style="height: 550px; width: 667.5px;">p { color: green; }</textarea>            
+            <textarea id="javascriptPanel" class="panel" style="height: 550px; width: 667.5px;">document.getElementById("paragraph").innerHTML = "Hello Rob!";</textarea>            
+            <iframe id="outputPanel" class="panel" style="height: 547px; width: 664.5px;" src="saved_resource.html"></iframe>              
+        </div>
+		
+		<script type="text/javascript" src="codePlayer.js"></script>        
+	</body>
+</html>

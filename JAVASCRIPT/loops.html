@@ -1,0 +1,21 @@
+<html>
+	<head>
+		<title>Loops</title>
+	</head>
+
+	<body>
+		<div id="tweetsDiv"></div>
+	
+		<script type="text/javascript">
+			var tweetsString = "";
+			var tweets = ["Hi, this is the first", "here is more one.","adding one more" , "finally, the last one. "]
+			for (var i = 0; i < tweets.length; i++) {
+				tweetsString = tweetsString + "<p>" + tweets[i] + "</p>";
+			}
+			document.getElementById("tweetsDiv").innerHTML = tweetsString;
+			
+		</script>
+	</body>
+
+
+</html>

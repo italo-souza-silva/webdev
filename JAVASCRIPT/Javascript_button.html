@@ -1,0 +1,37 @@
+<html>
+	<head>
+		<title>Javascript button exercise</title>
+	</head>
+	
+	<body>
+		 <p id="text"> Hello World!</p>
+		 <button id="button">Click to rewrite the text.</button>
+		 <p id="2ndtext"> Javascript is (...)</p>
+		 <button id="2ndbutton">Click to append the text.</button>
+		 <p id="3rdtext"></p>
+		 <button id="3rdbutton">Click to write something.</button>
+		
+		<script type="text/javascript">
+			document.getElementById("button").onclick = function() {
+			
+				alert(" button clicked and text updated!");
+				document.getElementById("text").innerHTML = "Hello brow!";
+			
+			}
+		
+			document.getElementById("2ndbutton").onclick = function() {
+			
+				document.getElementById("2ndtext").innerHTML = document.getElementById("2ndtext").innerHTML + " easier than python!";
+			
+			}
+			
+			document.getElementById("3rdbutton").onclick = function() {
+				document.getElementById("3rdtext").innerHTML = "something";
+			
+			
+			}
+		</script>
+		
+	</body>
+
+</html>

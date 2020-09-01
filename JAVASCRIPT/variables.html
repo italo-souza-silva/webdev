@@ -1,0 +1,25 @@
+<html>
+	<head>
+		<title>Variables</title>
+		
+	</head>
+	
+	<body>
+	
+		<input id="typing" type="text">
+		<button id="button">Change the text:</button>
+		<p id="originalText"> This is the original text!</p>
+		
+		<script type="text/javascript">
+			document.getElementById("button").onclick = function() {
+				var typedInput = "";
+				typedInput = document.getElementById("typing").value;
+				document.getElementById("originalText").innerHTML = typedInput;
+			
+			
+			}
+		
+		</script>
+	</body>
+
+</html>
