@@ -1,7 +1,7 @@
 # API FOLDER
 <h2 align="center">Weather Project</h2>
 
-This project is based on one of the Open Weather Map's API called <em>Current weather data</em>.  
+This project is based on one of the Open Weather Map's API called: [Current weather data](https://openweathermap.org/current).  
 As the name suggests, it returns the current weather information of any location on Earth.  
 In this project, the city name is the parameter to define the area to get the information from.  
 Before using the API in a project, it is needed to sign up, *for free*. After that, an API key to use one of the weather API is provided.  
