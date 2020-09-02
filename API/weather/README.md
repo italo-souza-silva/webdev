@@ -11,13 +11,13 @@ With this API key on hand, it is possible to add to your project an URL that ret
 
 The files of this project are:
 
-	*<p>gifs/ <em>This is folder with the gifs of the webpage</em>.</p>	
-	*<p>APIpasswordKey.php <em>This file contains the API key. For safety, here is just a sample. Go to <a href="https://openweathermap.org/">OpenWeatherMap</a> to get yours.</em></p>
-	*<p>background.jpg <em>This is the image used in the background. It was downloaded from Unsplash. According to them: Unsplash photos are made to be used freely. Check it out: <a href="https://unsplash.com/license">Unsplash</a>.</em></p>
-	*<p>index.php <em>It's an HTML file, also is the main file of the project. It contains the title, the form(input and submit button), and the alert of the results of the consult.</em> `In the bootstrap folder, there are explanations about how these were done.`</p>
-	*<p>README.md <em>This is the readme</em>.</p>
-	*<p>style.css <em>The background image was applied by these files. Also, the style of the body, image, container, and the margin of the weather message was done here.</em></p>
-	*<p>weatherApi.php <em>This is where the API goes. The explanation of this process is below</em>.</p>
+	- gifs/ This is a folder with the gifs to this readme.	
+	- APIpasswordKey.php This file contains the API key. For safety, here is just a sample. Go to <a href="https://openweathermap.org/">OpenWeatherMap</a> to get yours.
+	- background.jpg This is the image used in the background. It was downloaded from Unsplash. According to them: Unsplash photos are made to be used freely. Check it out: <a href="https://unsplash.com/license">Unsplash</a>.
+	- index.php It's an HTML file, also is the main file of the project. It contains the title, the form(input and submit button), and the alert of the results of the consult. In the bootstrap folder, there are explanations about how these were done.
+	- README.md This is the readme.
+	- style.css The background image was applied by these files. Also, the style of the body, image, container, and the margin of the weather message was done here.
+	- weatherApi.php This is where the API goes. The explanation of this process is below.
 
 ---
 <h2>How Does it work?</h2>
@@ -30,11 +30,11 @@ Back to the index file, in a PHP tag, an if statement will check if there is val
 ---
 <h2> Check it out:</h2>
 
-<h4>City name correct/found:</h4>
-<img src="gifs/apiWorking.gif" width="500px" height="500px" />
+<h4 align="center">City name correct</h4>
+<img src="gifs/apiWorking.gif" width="100%" height="100%" />
 
-<h4>Not working</h4>
-<img src="gifs/apiNotWorking.gif" width="500px" height="500px" />
+<h4 align="center">City name wrong</h4>
+<img src="gifs/apiNotWorking.gif" width="100%" height="100%" />
 
-<p>Click <a href="http://ldkwebdev-api-com.stackstaging.com/weather/"><sup>**here**</sup></a> to try for yourself!</p>
+<p align="center">Click <a href="http://ldkwebdev-api-com.stackstaging.com/weather/"><sup>**here**</sup></a> to try for yourself!</p>
 
