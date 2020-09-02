@@ -19,7 +19,7 @@ Check the **folders list** below:
 
 *  [**postcodFinder**](): `NOT DONE`
 *  [**twitterClient**](): `NOT DONE`
-*  [**weather**](): In this project, a weather API provides the climate data needed by the website. First, the user type the name of a city and receive an message with the temperature and the weather of that city. 
+*  [**weather**](https://github.com/ItaloSSilva19/webdev/tree/master/API/weather): In this project, a weather API provides the climate data needed by the website. First, the user type the name of a city and receive an message with the temperature and the weather of that city. 
 
 <p align="center"><sub>Click in the folder's name to go to there.</sub></p>
 
