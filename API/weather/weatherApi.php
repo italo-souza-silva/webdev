@@ -13,6 +13,9 @@
 		} else {
 			$error = "Couldn't find ".$_GET["city"].".";
 		};
+	} else if (isset($_GET["submit"])){
+		$error = "Type the name of a city before submit";
 	};
+	
 
 ?>

@@ -19,16 +19,15 @@
 			<form>
 				<fieldset class="form-group">
 					<label for="city">Enter the name of a city.</label>
-					<input type="text" class="form-control" name="city" id="city">
+					<input type="text" class="form-control" name="city" id="city" placeholder="E.g: tokyo,jp | São Paulo,br">
 				</fieldset>
-				<button type="submit" class="btn btn-primary">Submit</button>
+				<button type="submit" name="submit" class="btn btn-primary">Submit</button>
 			</form>
 			<div class= "weatherMsg">
 			<?php 
-        if ($weather) {                  
+        if ($weather != "") {                  
           echo '<div class="alert alert-success" role="alert">'.$weather.'</div>';
-				};
-				if ($error != "") {
+				}else if ($error != "") {
 					echo '<div class="alert alert-danger" role="alert">'.$error.'</div>';
 				};
 				
