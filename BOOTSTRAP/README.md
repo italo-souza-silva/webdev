@@ -2,7 +2,7 @@
 
 <h2 align="center">Udemy's API Section</h2>
 
-Bootstrap, according to its own page, is the **most popular Javascript and CSS framework for building responsive, mobile-firts sites**, and it is currently at the 4.5 version<a href="#biblio">¹</a>. This means that *bootstrap styling and scripting will acomodate any screen size device*. Also, with bootstrap you have to basicaly copy and paste the template code of a component that you want to apply on your website. Although the fact that bootstrap can be applied really fast and easy, to really master the functionalities of this framework might be a little trick. An option to make things easier it to purchase the themes they offers. Check bellow some of the most useful components of bootstrap:
+Bootstrap, according to its own page, is the **most popular Javascript and CSS framework for building responsive, mobile-first sites**, and it is currently at the 4.5 version<a href="#biblio">¹</a>. This means that *bootstrap styling and scripting will accommodate any screen size device*. Also, with bootstrap, you have to basically copy and paste the template code of a component that you want to apply on your website. Moreover, to make the job easier, it is possible to purchase the themes offered. Although the fact that bootstrap can be applied really fast and easy, to really master the functionalities of this framework might be a little tricky. Check bellow some of the most useful components of bootstrap:
 
 <h3 align="center">Bootstrap Components Samples</h3>
 
@@ -152,7 +152,7 @@ Bootstrap, according to its own page, is the **most popular Javascript and CSS f
 <img src="https://urless.in/LiuCO" width="150%"><p align="center"><sup>Popover sample</sup></p></img>
 
 All of these components were used to build the project and the files in this folder, check it out or go to bootstrap web page to know more about it.
-To check the **complete Bootstrap documentation**, click [<sup>here</sup>](https://getbootstrap.com/docs/4.5/getting-started/introduction/)
+To check the **complete Bootstrap documentation**, [<sup>**click here**</sup>](https://getbootstrap.com/docs/4.5/getting-started/introduction/)
 
 ---
 
