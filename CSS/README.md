@@ -54,14 +54,30 @@ There are three usual ways to apply CSS to an HTML document: *Inline, Internal, 
 
 ---
 
+<h3 align="center">Table of Content:</h3>
+
+*  <h5>Files:</h5>
+
+*  *  **-Positioning_exercise.html**
+*  *  **-aligning_exercise.html**
+*  *  **-borders_exercise.html**
+*  *  **-fonts_exercise.html**
+*  *  **-margins_exercise.html**
+*  *  **-styling_exercise.html**
+*  *  **-webpage_div&color&floating.html**
+*  *  **-webpage_with_style_CLASSES&ID.html**
+*  *  **-webpage_with_style_INLINE.html**
+*  *  **-webpage_with_style_INTERNAL.html**
+
+*  <h5>Project:</h5>	
+	
+*  *  -[**BBC project:**](https://github.com/ItaloSSilva19/webdev/tree/master/CSS/BBC%20project) This project uses CSS to replicate the desing of the BBC news webpage. 
+
+---
+
 <h3 align="center"><a name="biblio">Bibliography</a>:</h3>
 
 ¹ Introduction of CSS. Available at: https://www.w3schools.com/css/css_intro.asp. Accessed on: 03 sep. 2020.
 ² CSS introduction: CSS solved a big problem. Available at: https://www.w3schools.com/css/css_intro.asp. Accessed on: 03 sep. 2020.
-³  
-⁴ 
-⁵ 
-⁶ 
-⁷  
-⁸   
+ 
 
