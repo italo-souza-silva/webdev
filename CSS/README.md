@@ -14,8 +14,7 @@ There are three usual ways to apply CSS to an HTML document: *Inline, Internal, 
 <p style="color:red;">This is a text example.</p>
 ```
 
-**Code explanation**: In that sample code, an CSS atribute inside an HTML paragraph tag is used to change the color of the text to red.
-
+**Code explanation**: In that sample code, a CSS attribute inside an HTML paragraph tag is used to change the text's color to red.
 *  **Internal CSS** is used to apply CSS styling inside a <style> element:
   
   <h6 align="center">Code Sample</h6>
@@ -50,7 +49,7 @@ There are three usual ways to apply CSS to an HTML document: *Inline, Internal, 
     (...)
 ```
 
-**Code explanation**: Here, an CSS file named thisIsExternalCSS.css is inserted inside an HTML file. This way this CSS can be aplied to multiple pages with just that line.
+**Code explanation**: Here, a CSS file named thisIsExternalCSS.css is inserted inside an HTML file. This way this CSS file can be applied to multiple pages by just insert that line.
 
 ---
 
@@ -71,7 +70,7 @@ There are three usual ways to apply CSS to an HTML document: *Inline, Internal, 
 
 *  <h5>Project:</h5>	
 	
-*  *  -[**BBC project:**](https://github.com/ItaloSSilva19/webdev/tree/master/CSS/BBC%20project) This project uses CSS to replicate the desing of the BBC news webpage. 
+*  *  -[**BBC project:**](https://github.com/ItaloSSilva19/webdev/tree/master/CSS/BBC%20project) This project uses CSS to replicate the design of the BBC news webpage. 
 
 ---
 
