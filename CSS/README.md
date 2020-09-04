@@ -53,12 +53,16 @@ There are three usual ways to apply CSS to an HTML document: *Inline, Internal, 
 
 ---
 
+Also, another important feature in CSS is the possibility to create classes and ids. They seems the same in a first glance, but there is a fundamental difference between them. While a class name can be applied to several elements on a single page, an id name must be unique. One of the reasons is that "JavaScript depends on there being only one page element with any particular id, or else the commonly used `getElementById` function wouldn’t be dependable."
 <h3 align="center">Table of Content:</h3>
 
 *  <h5>Files:</h5>
 
-*  *  **-Positioning_exercise.html**
-*  *  **-aligning_exercise.html**
+*  *  **-Positioning_exercise.html** *Manipulate the position of an element trought the page*.  
+
+<img src="http://g.recordit.co/J5pnt2TbMV.gif"></img>
+
+*  *  **-aligning_exercise.html** *Manipulate the alignment of an element inside a page or a container*.
 *  *  **-borders_exercise.html**
 *  *  **-fonts_exercise.html**
 *  *  **-margins_exercise.html**
