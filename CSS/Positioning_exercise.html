@@ -4,17 +4,16 @@
 		<title>Positioning exercise</title>
 		
 		<style type="text/css">
-			.first {
+			#first {
 				color:#EFFBEF;
 				background-color:#2E2EFE;
-				width:200px;
+				width:300px;
 				font-size:150%;
 				font-weight:bold;
 				position:relative;
-				left:200px;
+				left:100px;
 				top:100px;
 				z-index:1;
-
 			}
 
 			#second {
@@ -24,9 +23,32 @@
 				text-decoration:underline;
 				position:relative;
 				right:-100px;
-				bottom:95px;
+				bottom:15px;
 				z-index:2;
-				opacity:0.9;
+				opacity:0.9;			
+			}
+			
+			#third {
+				color:#EFA401;
+				background-color:#2E2EFE;
+				width:700px;
+				radius:75%
+				font-size:150%;
+				font-weight:bold;
+				position:fixed;
+				left:500px;
+				top:500px;
+			}
+
+			#fourth {
+				color:#EEAB99;
+				background-color:#FFFF00;
+				width:300px;
+				radius:50%;
+				text-decoration:underline;
+				position:absolute;
+				right:300px;
+				bottom:200px;
 			
 			}
 		</style>
@@ -34,14 +56,23 @@
 	</head>
 
 	<body>
-		<div class="first">
+		<div id="first">
 			<p>Positioning exercise!</p>
-			<p>This is the first.</p>
 		
 		</div>
 
 		<div id="second">
 			<h1>This is overlapping!</h1>
+
+		</div>
+		
+		<div id="third">
+			<p>You can define the position easily!</p>
+		
+		</div>
+
+		<div id="fourth">
+			<h1>anywhere on the page!</h1>
 
 		</div>
 
