@@ -6,6 +6,8 @@
   
 There are three usual ways to apply CSS to an HTML document: *Inline, Internal, and external*. 
 
+<h3 align="center">HOW TO APPLY CSS:</h3><a name="HWA"></a>
+
 *  **Inline CSS** is used as an attribute inside an HTML element:
 
 <h6 align="center">Code Sample</h6>
@@ -54,7 +56,11 @@ There are three usual ways to apply CSS to an HTML document: *Inline, Internal, 
 ---
 
 Also, another important feature in CSS is the possibility to create classes and ids. They seems the same in a first glance, but there is a fundamental difference between them. While a class name can be applied to several elements on a single page, an id name must be unique. One of the reasons is that "JavaScript depends on there being only one page element with any particular id, or else the commonly used `getElementById` function wouldn’t be dependable."
+
+
 <h3 align="center">Table of Content:</h3>
+
+---
 
 *  <h5>Files:</h5>
 
@@ -62,25 +68,50 @@ Also, another important feature in CSS is the possibility to create classes and 
 
 <img src="http://g.recordit.co/J5pnt2TbMV.gif"></img>
 
-*  *  **-aligning_exercise.html** *Manipulate the alignment of an element inside a page or a container*.
-*  *  **-borders_exercise.html**
-*  *  **-fonts_exercise.html**
-*  *  **-margins_exercise.html**
-*  *  **-styling_exercise.html**
-*  *  **-webpage_div&color&floating.html**
-*  *  **-webpage_with_style_CLASSES&ID.html**
-*  *  **-webpage_with_style_INLINE.html**
-*  *  **-webpage_with_style_INTERNAL.html**
+*  *  **-aligning_exercise.html** *Manipulate the alignment of an element inside a page or a &lt;div&gt container*.
+
+<img src="http://g.recordit.co/GyerzT5Dne.gif"></img>
+
+*  *  **-borders_exercise.html** *Manipulate the style and property of a &lt;div&gt; container*.
+
+<img src="http://g.recordit.co/Y9nvRANqiy.gif"></img>
+
+*  *  **-fonts_exercise.html** *Manipulate the text font type for the header, page, paragraph or &lt;div&gt; container*.
+
+<img src="http://g.recordit.co/GL9kF6TLhY.gif"></img>
+
+*  *  **-margins_exercise.html** *Manipulate the tmargin properties for the header, page, paragraph or &lt;div&gt; container*.
+
+<img src="http://g.recordit.co/5szW2fA4h8.gif"></img>
+
+*  *  **-styling_exercise.html** *Manipulate the style of texts*.
+
+<img src="http://g.recordit.co/yEdOyPAlkV.gif"></img>
+
+*  *  **-webpage_div&color&floating.html** *Manipulate the &lt;div&gt container*.
+
+<img src="http://g.recordit.co/arnvkjR4wb.gif"></img>
+
+*  *  **-webpage_with_style_CLASSES&ID.html** *Manipulate the style of classes and ids*.
+
+<img src="http://g.recordit.co/O86iIX2cFt.gif"></img>
+
+*  *  **-webpage_with_style_INLINE.html** *Manipulate the style of an element inside of it*. <a href="HTA">CHECK IT HERE!</a>
+
+*  *  **-webpage_with_style_INTERNAL.html** *Manipulate the style of an element inside of an HTML &lt;style&gt; tag*. <a href="HTA">CHECK IT HERE!</a>
+
+---
 
 *  <h5>Project:</h5>	
 	
-*  *  -[**BBC project:**](https://github.com/ItaloSSilva19/webdev/tree/master/CSS/BBC%20project) This project uses CSS to replicate the design of the BBC news webpage. 
+*  *  -[**BBC project:**](https://github.com/ItaloSSilva19/webdev/tree/master/CSS/BBC%20project) *This project uses CSS to replicate the design of the BBC news webpage*. 
 
+<img src="http://g.recordit.co/kYNFDhzm2d.gif"></img>
 ---
 
 <h3 align="center"><a name="biblio">Bibliography</a>:</h3>
 
-¹ Introduction of CSS. Available at: https://www.w3schools.com/css/css_intro.asp. Accessed on: 03 sep. 2020.
-² CSS introduction: CSS solved a big problem. Available at: https://www.w3schools.com/css/css_intro.asp. Accessed on: 03 sep. 2020.
+¹ Introduction of CSS. Available at: https://www.w3schools.com/css/css_intro.asp. Accessed on: 03 sep. 2020.  
+² CSS introduction: CSS solved a big problem. Available at: https://www.w3schools.com/css/css_intro.asp. Accessed on: 03 sep. 2020.  
  
 
