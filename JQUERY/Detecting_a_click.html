@@ -21,6 +21,10 @@
 			background-color : #00FF00
 		}
 		
+		.blueSquare {
+			background-color : #0000FF;
+		
+		}
 		</style>
 		
 		
@@ -30,16 +34,19 @@
 	<body>
 	
 		<div class="shape redSquare"></div>
-		<div class="shape redSquare"></div>
 		<div class="shape greenCircle"></div>	
+		<div class="shape blueSquare"></div>
 		
 		<script type="text/javascript">
 			$(".greenCircle").click(function() {
 				alert("circle was clicked!")
 			});
 			$(".redSquare").click(function() {
-				alert("square was clicked!")
-			});			
+				alert("red square was clicked!")
+			});		
+			$(".blueSquare").click(function() {
+				alert("blue square was clicked!")
+			});					
 		
 		</script>
 	</body>
