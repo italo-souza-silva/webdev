@@ -1,6 +1,6 @@
 # WEBDEV REPOSITORY
 
-<h2 align="center">Udemy's API Section</h2>
+<h2 align="center">Udemy's HTML Section</h2>
 
 HTML stands for HyperText Markup Language, and despite some people's belief, "HTML is not a programming language, meaning it can't create dynamic functionality. Instead, it makes it possible to organize and format documents, similarly to Microsoft Word."<a href="#biblio">¹</a>(DOMANTAS, 2019). HTML is used to add context and structure to a webpage. This structure is defined as head and body elements, in which you can apply the tags to generate the website's content.These tags are created with a start tag, the content, and usually an end tag(<startTagName>CONTENT</endTagName>)<a href="#biblio">²</a>. In this section, these tags were applied to create some functionalities, such as forms, lists, links, images, and more. At the end of this section, a simple webpage was designed using HTML.
 
