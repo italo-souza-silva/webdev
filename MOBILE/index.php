@@ -4,50 +4,71 @@
     <title>My App</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
     <link rel="stylesheet" href="app.min.css">
+		
     <style>
-      /* TODO */
+			@-webkit-keyframes pulse {
+				0% {
+					background-color: #CCC;
+				}
+				25% {
+					background-color: #EEE;
+				}
+				50% {
+					background-color: #CCC;
+				}
+				75% {
+					background-color: #EEE;
+				}
+				100% {
+					background-color: #CCC;
+				}
+			}
+			
     </style>
   </head>
 
   <body>
     <div class="app-page" data-page="home">
-      <div class="app-topbar blue">
+      <div class="app-topbar red">
         <div class="app-title">Send An Email</div>
       </div>
       <div class="app-content">
           <p class="app-section">
-					Click below to send an email!
+					Click <strong>below</strong> to send an email!
 				</p>
-      <div class="app-content">
+         
+          
+          <div class="app-section" id="contact-list">
+					
+				</div>
+          
         <div class="app-section">
-          <div class="app-button" data-target="sendemail">Send email page</div>
+          <div class="app-button blue" id="new-user">Send to new user</div>
         </div>
       </div>
     </div>
 
-    <div class="app-page" data-page="sendemail">
-      <div class="app-topbar blue">
-        <div class="app-button left" data-back data-autotitle></div>
-        <div class="app-title">Sending email</div>
-      </div>
-      <div class="app-content">
+		<div class="app-page" data-page="sendemail">
+			<div class="app-topbar red">
+				<div class="app-title"><span class="app-icon"></span>Send Email</div>
+				<div class="right app-button" data-back>Go Back</div>
+			</div>
+
+			<div class="app-content">									
+				<div class="app-section" id="message"></div>
 				<div class="app-section">
 					From: <input class="app-input" id="sender-email" placeholder="Sender Email Address">
-				</div>
-                
-                <div class="app-section">
+				</div>						
+				<div class="app-section">
 					To: <input class="app-input" id="recipient-email" placeholder="Recipient Email Address">
 				</div>
-
 				<form class="app-section">
 					<input class="app-input" name="subject" placeholder="Subject" id="subject">
 					<textarea class="app-input" name="message" placeholder="Message" id="content"></textarea>
 					<div class="app-button green app-submit" id="send-button">Send</div>
 				</form>
 			</div>
-    </div>
-    </div>
-
+		</div>
     <script src="zepto.js"></script>
     <script src="app.min.js"></script>
     <script>   
