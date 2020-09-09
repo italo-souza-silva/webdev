@@ -88,7 +88,22 @@
             }            
 						
           $(page).find('#send-button').clickable().on('click', function () {
-					
+            if (typeof localStorage !== 'undefined') {                  
+              localStorage.setItem("sender-email", $("#sender-email").val());                  
+              var recipientList = new Array();                  
+              if (localStorage.getItem("recipient-list") !== null) {                      
+                recipientList = JSON.parse(localStorage.getItem("recipient-list"));                      
+              }                  
+              if ($.inArray($("#recipient-email").val(), recipientList) == -1) {                      
+                recipientList.push($("#recipient-email").val());                      
+                recipientList.sort();                      
+                localStorage.setItem("recipient-list", JSON.stringify(recipientList));                      
+                console.log(recipientList);                      
+              }
+                  
+            } else {                  
+                  // alert user that we couldn't save data                  
+              }					
 					});
 				});
 				
