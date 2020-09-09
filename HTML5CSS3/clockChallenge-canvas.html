@@ -4,14 +4,36 @@
 		<title> Clock Challenge- CANVAS</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
 		
+		<style type="text/css">
+		canvas {
+		    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin:auto;
+		}
+		
+		
+		</style>
 	</head>
 
 	<body>
 		
 		<canvas id="clock" width="500" height="500">
 		
-		
+			Browser not supported!
 		</canvas>
 		
+		<script type="text/javascript">
+			var canvas = document.getElementById("clock");
+			var context = canvas.getContext("2d");
+			var clockRadius = canvas.width/2;
+			
+			context.beginPath();
+			context.arc(clockRadius, clockRadius, clockRadius, 0, 2*Math.PI);
+			context.fillStyle = "#CEF6F5";
+			context.fill();
+		</script>
 	</body>
 </html>
