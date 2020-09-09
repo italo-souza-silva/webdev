@@ -11,24 +11,41 @@
 
   <body>
     <div class="app-page" data-page="home">
-      <div class="app-topbar">
-        <div class="app-title">Home page</div>
+      <div class="app-topbar blue">
+        <div class="app-title">Send An Email</div>
       </div>
       <div class="app-content">
+          <p class="app-section">
+					Click below to send an email!
+				</p>
+      <div class="app-content">
         <div class="app-section">
-          <div class="app-button" data-target="page2">Go to Page 2</div>
+          <div class="app-button" data-target="sendemail">Send email page</div>
         </div>
       </div>
     </div>
 
-    <div class="app-page" data-page="page2">
-      <div class="app-topbar">
+    <div class="app-page" data-page="sendemail">
+      <div class="app-topbar blue">
         <div class="app-button left" data-back data-autotitle></div>
-        <div class="app-title">Page 2</div>
+        <div class="app-title">Sending email</div>
       </div>
       <div class="app-content">
-        Page 2 is lonely
-      </div>
+				<div class="app-section">
+					From: <input class="app-input" id="sender-email" placeholder="Sender Email Address">
+				</div>
+                
+                <div class="app-section">
+					To: <input class="app-input" id="recipient-email" placeholder="Recipient Email Address">
+				</div>
+
+				<form class="app-section">
+					<input class="app-input" name="subject" placeholder="Subject" id="subject">
+					<textarea class="app-input" name="message" placeholder="Message" id="content"></textarea>
+					<div class="app-button green app-submit" id="send-button">Send</div>
+				</form>
+			</div>
+    </div>
     </div>
 
     <script src="zepto.js"></script>
