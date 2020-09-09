@@ -76,18 +76,40 @@
           }
       });
         
-        App.controller('sendemail', function (page) {            
-            $(page).find("#message").hide();            
-            if (typeof localStorage !== 'undefined') {                
-                if (localStorage.getItem("sender-email") !== null) {                                        
-                    $(page).find("#sender-email").val(localStorage.getItem("sender-email"));                    
-                }                
-                if (localStorage.getItem("recipient-email") !== null) {                    
-                    $(page).find("#recipient-email").val(localStorage.getItem("recipient-email"));                    
-                }                
-            }            
-						
-          $(page).find('#send-button').clickable().on('click', function () {
+      App.controller('sendemail', function (page) {            
+        $(page).find("#message").hide();            
+        if (typeof localStorage !== 'undefined') {                
+          if (localStorage.getItem("sender-email") !== null) {                                        
+            $(page).find("#sender-email").val(localStorage.getItem("sender-email"));                    
+          }                
+          if (localStorage.getItem("recipient-email") !== null) {                    
+            $(page).find("#recipient-email").val(localStorage.getItem("recipient-email"));                    
+          }                
+        }         						
+        $(page).find('#send-button').clickable().on('click', function () {
+            $.ajax({
+							type: 'GET',
+							url: 'http://completewebdevelopercourse.com/content/9-mobileapps/sendemail.php?callback=response',
+							// data to be added to query string:
+							data: { to: $("#recipient-email").val(), from: $("#sender-email").val(), subject: $("#subject").val(), content: $("#content").val()},
+							// type of data we are expecting in return:
+							dataType: 'jsonp',
+							timeout: 300,
+							context: $('body'),
+							success: function(data){							
+								if (data.success == true) {										
+									$(page).find("#message").html("Your email was sent successfully!").show();										
+								} else {										
+									$(page).find("#message").html("Your email could not be sent - please try again later.").show();
+										
+									}
+								
+								
+							},
+								error: function(xhr, type){							
+									$(page).find("#message").html("Your email could not be sent - please try again later.").show();   								
+								}
+						});
             if (typeof localStorage !== 'undefined') {                  
               localStorage.setItem("sender-email", $("#sender-email").val());                  
               var recipientList = new Array();                  
@@ -99,13 +121,12 @@
                 recipientList.sort();                      
                 localStorage.setItem("recipient-list", JSON.stringify(recipientList));                      
                 console.log(recipientList);                      
-              }
-                  
+              }                  
             } else {                  
                   // alert user that we couldn't save data                  
               }					
-					});
 				});
+			});
 				
       try {
         App.restore();
