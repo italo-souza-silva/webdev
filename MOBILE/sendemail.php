@@ -2,7 +2,7 @@
 
 $to      = $_GET['to'];
 $subject = $_GET['subject'];
-$message = $_GET['message'];
+$message = $_GET['msg'];
 $headers = 'From: '.$_GET['from'] . "\r\n" .
     'Reply-To: '.$_GET['from'] . "\r\n" .
     'X-Mailer: PHP/' . phpversion();

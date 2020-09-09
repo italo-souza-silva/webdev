@@ -51,9 +51,10 @@
 				<div class="app-title"><span class="app-icon"></span>Send Email</div>
 				<div class="right app-button" data-back>Go Back</div>
 			</div>
-
-			<div class="app-content">									
-				<div class="app-section" id="message"></div>
+			<div class="app-content">
+				<div class="app-section" id="message">
+				
+				</div>				
 				<div class="app-section">
 					From: <input class="app-input" id="sender-email" placeholder="Sender Email Address">
 				</div>						
@@ -62,7 +63,7 @@
 				</div>
 				<form class="app-section">
 					<input class="app-input" name="subject" placeholder="Subject" id="subject">
-					<textarea class="app-input" name="message" placeholder="Message" id="content"></textarea>
+					<textarea class="app-input" name="message" placeholder="Message" id="msg"></textarea>
 					<div class="app-button green app-submit" id="send-button">Send</div>
 				</form>
 			</div>
@@ -96,7 +97,6 @@
       });
         
       App.controller('sendemail', function (page) {            
-        $(page).find("#message").hide();            
         if (typeof localStorage !== 'undefined') {                
           if (localStorage.getItem("sender-email") !== null) {                                        
             $(page).find("#sender-email").val(localStorage.getItem("sender-email"));                    
@@ -110,24 +110,22 @@
 							type: 'GET',
 							url: 'http://ldkwebdev-mobileapp-com.stackstaging.com/sendemail.php?callback=response',
 							// data to be added to query string:
-							data: { to: $("#recipient-email").val(), from: $("#sender-email").val(), subject: $("#subject").val(), content: $("#content").val()},
+							data: { to: $("#recipient-email").val(), from: $("#sender-email").val(), subject: $("#subject").val(), msg: $("#msg").val()},
 							// type of data we are expecting in return:
 							dataType: 'jsonp',
 							timeout: 300,
 							context: $('body'),
-							success: function(data){							
+							success: function(data){	
 								if (data.success == true) {										
-									$(page).find("#message").html("Your email was sent successfully!").show();										
+									$(page).find("#message").html("Your email was sent successfully!");										
 								} else {										
-									$(page).find("#message").html("Your email could not be sent - please try again later.").show();
-										
+									$(page).find("#message").html("Your email could not be sent - please try again later.");								
 									}
-								
-								
+
 							},
 								error: function(xhr, type){							
-									$(page).find("#message").html("Your email could not be sent - please try again later.").show();   								
-								}
+									$(page).find("#message").html("Your email could not be sent - please try again later.");   								
+								},
 						});
             if (typeof localStorage !== 'undefined') {                  
               localStorage.setItem("sender-email", $("#sender-email").val());                  
