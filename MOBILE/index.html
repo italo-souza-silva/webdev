@@ -32,20 +32,18 @@
       <div class="app-topbar red">
         <div class="app-title">Send An Email</div>
       </div>
-      <div class="app-content">
-          <p class="app-section">
+			<div class="app-content">
+				<p class="app-section">
 					Click <strong>below</strong> to send an email!
-				</p>
-         
-          
-          <div class="app-section" id="contact-list">
-					
-				</div>
-          
-        <div class="app-section">
-          <div class="app-button blue" id="new-user">Send to new user</div>
-        </div>
-      </div>
+				</p>                
+					<div class="app-section" id="contact-list">
+			
+					</div>
+						
+					<div class="app-section">
+						<div class="app-button blue" id="new-user">Send to new user</div>
+					</div>
+			</div>
     </div>
 
 		<div class="app-page" data-page="sendemail">
@@ -110,7 +108,7 @@
         $(page).find('#send-button').clickable().on('click', function () {
             $.ajax({
 							type: 'GET',
-							url: 'http://completewebdevelopercourse.com/content/9-mobileapps/sendemail.php?callback=response',
+							url: 'http://ldkwebdev-mobileapp-com.stackstaging.com/sendemail.php?callback=response',
 							// data to be added to query string:
 							data: { to: $("#recipient-email").val(), from: $("#sender-email").val(), subject: $("#subject").val(), content: $("#content").val()},
 							// type of data we are expecting in return:
