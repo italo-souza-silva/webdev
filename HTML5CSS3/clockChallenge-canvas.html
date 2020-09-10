@@ -34,7 +34,20 @@
 			context.arc(clockRadius, clockRadius, clockRadius, 0, 2*Math.PI);
 			context.fillStyle = "#CEF6F5";
 			context.fill();
-	
+
+			grad = context.createRadialGradient(0, 0 ,clockRadius * 2, 1, 1, clockRadius * 0.5);
+			grad.addColorStop(0, '#333');
+			grad.addColorStop(0.75, 'white');
+			grad.addColorStop(1, '#333');
+			context.strokeStyle = grad;
+			context.lineWidth = clockRadius*0.025;
+			context.stroke();
+			
+			context.beginPath();
+			context.arc(clockRadius, clockRadius, 7.5, 0, 2*Math.PI);
+			context.fillStyle = "black";
+			context.fill();
+			
 			context.font = clockRadius / 10 + "px arial";
 			context.fillStyle = "#000000";
 			context.textAlign = "center";
@@ -51,8 +64,8 @@
 			var fullHours = hours % 12 + minutes / 60 + seconds / 3600;
 			
 			var hoursAngle = fullHours * 2 * Math.PI / 12;
-			var minutesAngle = minutes * 2 * Math.PI / 12;
-			var secondsAngle = seconds * 2 * Math.PI / 12;
+			var minutesAngle = minutes * 2 * Math.PI / 60;
+			var secondsAngle = seconds * 2 * Math.PI / 120;
 			
 			context.strokeStyle = "white";
 			context.moveTo(clockRadius, clockRadius);
