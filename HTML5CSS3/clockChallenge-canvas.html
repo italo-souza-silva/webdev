@@ -34,6 +34,15 @@
 			context.arc(clockRadius, clockRadius, clockRadius, 0, 2*Math.PI);
 			context.fillStyle = "#CEF6F5";
 			context.fill();
+			
+			context.font = clockRadius / 10 + "px arial";
+			context.fillStyle = "#000000";
+			context.textAlign = "center";
+			context.textBaseline = "middle";
+			
+			for (var i = 1; i <= 12; i++) {
+				context.fillText(i, clockRadius + clockRadius * 0.9 * Math.sin(i * 2 * Math.PI / 12), clockRadius - (clockRadius * 0.9 * Math.cos(i * 2 * Math.PI / 12)));
+			}
 		</script>
 	</body>
 </html>
