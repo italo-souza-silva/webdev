@@ -31,6 +31,18 @@ if "guess" in form:
 else:
     guess = ""
 
+if "numberOfGuesses" in form:
+    numberOfGuesses = int(form.getvalue("numberOfGuesses")) + 1
+else:
+    numberOfGuesses = 0
+
+if numberOfGuesses == 0:
+    message = "I've chosen a 4 digit number. Can you guess it?"
+elif reds == 4:
+    message = "Well done! You got in " + str(numberOfGuesses) + " guesses. <a href=''>Play again</a>"
+else:    
+    message = "You have " + str(reds) + " correct digit(s) in the right place, and " + str(whites) + " correct digit(s) in the wrong place. You have had " + str(numberOfGuesses) + " guess(es)."
+
 print ('<h1>Mastermind</h1>')
 print ("<p>" + message + "</p>")
 print ('<form method="post">')
