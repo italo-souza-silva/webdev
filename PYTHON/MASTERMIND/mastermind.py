@@ -7,12 +7,29 @@ import cgi
 import random
 form = cgi.FieldStorage()
 
+reds = 0
+whites = 0
+
 if "answer" in form:
     answer = form.getvalue("answer")
 else:
     answer = ""
     for i in range(4):
         answer += str(random.randint(0, 9))
+        
+if "guess" in form:
+    guess = form.getvalue("guess")
+    for key, digit in enumerate(guess):
+        if digit == answer[key]:
+            reds += 1
+        else:
+            for answerDigit in answer:
+                if answerDigit == digit:
+                    whites += 1
+                    break
+        
+else:
+    guess = ""
 
 print ('<h1>Mastermind</h1>')
 print ("<p>" + message + "</p>")
