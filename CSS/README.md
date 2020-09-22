@@ -1,12 +1,28 @@
 # WEBDEV REPOSITORY
 
-<h2 align="center">Udemy's API Section</h2>
+<h2>CSS Section</h2>
 
-*Cascading Style Sheets*-**CSS** describes how HTML elements are to be displayed on screen, and it can control the layout of multiple web pages all at once.<a href="#biblio">¹</a> CSS arrived to solve a big issue that was arrising in the web development world. This problem was that developers were using HTML for styling, and it wasn't meant to that.(In the [HTML folder](https://github.com/ItaloSSilva19/webdev/tree/master/HTML) there are the explanation for this)."When tags like <font>, and color attributes were added to the HTML 3.2 specification, it started a nightmare for web developers. Development of large websites, where fonts and color information were added to every single page, became a long and expensive process. To solve this problem, the World Wide Web Consortium (W3C) created CSS. CSS removed the style formatting from the HTML page!"<a href="#biblio">²</a>
+---
+
+<h3>Contents</h3>
+
+<a href="#intro">Introduction</a>
+<a href="#HWA">HOW TO APPLY CSS</a>
+<a href="#working">Working with CSS</a>
+<a href="#exe">Exercises and Project</a>
+
+---
+
+<a name="intro"><h3>Introduction</h3></a>
+
+*Cascading Style Sheets*-**CSS** describes how HTML elements are to be displayed on screen, and it can control the layout of multiple web pages all at once.<a href="#biblio">¹</a> CSS arrived to solve a big issue that was arrising in the web development world. This problem was that developers were using HTML for styling, and it wasn't meant to that.(In the [HTML folder](https://github.com/ItaloSSilva19/webdev/tree/master/HTML) there are the explanation for this)."When tags like <font>, and color attributes were added to the HTML 3.2 specification, it started a nightmare for web developers. Development of large websites, where fonts and color information were added to every single page, became a long and expensive process. To solve this problem, the World Wide Web Consortium (W3C) created CSS. CSS removed the style formatting from the HTML page!"<a href="#biblio">²</a>   
+Also, another important feature in CSS is the possibility to create **classes and ids**. They seems the same in a first glance, but there is a fundamental difference between them. While a class name can be applied to several elements on a single page, an id name must be unique. One of the reasons is that "JavaScript depends on there being only one page element with any particular id, or else the commonly used `getElementById` function wouldn’t be dependable."
   
-There are three usual ways to apply CSS to an HTML document: *Inline, Internal, and external*. 
+---
 
-<h3 align="center">HOW TO APPLY CSS:</h3><a name="HWA"></a>
+<a name="HWA"><h3>HOW TO APPLY CSS:</h3></a>
+
+There are three usual ways to apply CSS to an HTML document: *Inline, Internal, and external*. 
 
 *  **Inline CSS** is used as an attribute inside an HTML element:
 
@@ -16,7 +32,8 @@ There are three usual ways to apply CSS to an HTML document: *Inline, Internal, 
 <p style="color:red;">This is a text example.</p>
 ```
 
-**Code explanation**: In that sample code, a CSS attribute inside an HTML paragraph tag is used to change the text's color to red.
+<sup>**Code explanation**: In that sample code, a CSS attribute inside an HTML paragraph tag is used to change the text's color to red.</sup>
+
 *  **Internal CSS** is used to apply CSS styling inside a <style> element:
   
   <h6 align="center">Code Sample</h6>
@@ -38,7 +55,7 @@ There are three usual ways to apply CSS to an HTML document: *Inline, Internal, 
 </html>
   ```
 
-**Code explanation**: In that sample code, an CSS element <style> is defined inside the head tags<head> of an HTML document. Inside of it, CSS is applied to change the colors of any h1 to yellow, and any p tags to brown. Also, it changes the background color to yellow. 
+<sup>**Code explanation**: In that sample code, an CSS element <style> is defined inside the head tags<head> of an HTML document. Inside of it, CSS is applied to change the colors of any h1 to yellow, and any p tags to brown. Also, it changes the background color to yellow.</sup>
 
 *  **External CSS** is used in a CSS file. This file is inserted inside an HTML document as a link element.
 
@@ -51,18 +68,23 @@ There are three usual ways to apply CSS to an HTML document: *Inline, Internal, 
     (...)
 ```
 
-**Code explanation**: Here, a CSS file named thisIsExternalCSS.css is inserted inside an HTML file. This way this CSS file can be applied to multiple pages by just insert that line.
+<sup>**Code explanation**: Here, a CSS file named thisIsExternalCSS.css is inserted inside an HTML file. This way this CSS file can be applied to multiple pages by just insert that line.</sup>
 
 ---
 
-Also, another important feature in CSS is the possibility to create classes and ids. They seems the same in a first glance, but there is a fundamental difference between them. While a class name can be applied to several elements on a single page, an id name must be unique. One of the reasons is that "JavaScript depends on there being only one page element with any particular id, or else the commonly used `getElementById` function wouldn’t be dependable."
+<a name="working"><h3> Working with CSS </h3></a>
 
+The most usual way to use CSS is applying is as an external file. To do this, you must link the the CSS file to the HTML file. For instance, You have an html file named: **file.html**, and a CSS file named: **ndfile.css**, to connect them, in the <head> of the html file, place a link tag with the *rel* attribute with stylesheet value and *href* attribute with the name of the css file(if they are in the same folder). like this:
 
-<h3 align="center">Table of Content:</h3>
+	<link rel="stylesheet" type="text/css" href="ndfile.css">
+	
+After that, using classes and ids, you can change the styles of entire pages. Check bellow to see some features of CSS.
 
 ---
 
-*  <h5>Files:</h5>
+<a name="exe"><h3>Exercises and Project:</h3></a>
+
+*  <h5>Exercises:</h5>
 
 *  *  **-Positioning_exercise.html** *Manipulate the position of an element trought the page*.  
 
@@ -104,12 +126,15 @@ Also, another important feature in CSS is the possibility to create classes and 
 
 *  <h5>Project:</h5>	
 	
-*  *  -[**BBC project:**](https://github.com/ItaloSSilva19/webdev/tree/master/CSS/BBC%20project) *This project uses CSS to replicate the design of the BBC news webpage*. 
+*  *  -[**BBC project:**](https://github.com/ItaloSSilva19/webdev/tree/master/CSS/BBC%20project) 
+
+This project uses CSS to replicate the design of the BBC news webpage. This project was done by visualizing the real web page and trying to replicate it through brute force by creating div boxes and guessing what's what.
 
 <img src="http://g.recordit.co/kYNFDhzm2d.gif"></img>
+
 ---
 
-<h3 align="center"><a name="biblio">Bibliography</a>:</h3>
+<a name="biblio"><h3>References</h3></a>
 
 ¹ Introduction of CSS. Available at: https://www.w3schools.com/css/css_intro.asp. Accessed on: 03 sep. 2020.  
 ² CSS introduction: CSS solved a big problem. Available at: https://www.w3schools.com/css/css_intro.asp. Accessed on: 03 sep. 2020.  
