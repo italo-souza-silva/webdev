@@ -1,14 +1,54 @@
 # WEBDEV REPOSITORY
 
-<h2 align="center">Udemy's Bootstrap Section</h2>
+<h2>Bootstrap Section</h2>
 
-Bootstrap, according to its own page, is the **most popular Javascript and CSS framework for building responsive, mobile-first sites**, and it is currently at the 4.5 version<a href="#biblio">¹</a>. This means that *bootstrap styling and scripting will accommodate any screen size device*. Also, with bootstrap, you have to basically copy and paste the template code of a component that you want to apply on your website. Moreover, to make the job easier, it is possible to purchase the themes offered. Although the fact that bootstrap can be applied really fast and easy, to really master the functionalities of this framework might be a little tricky. Check bellow some of the most useful components of bootstrap:
+---
 
-<h3 align="center">Bootstrap Components Samples</h3>
+<h3>Content</h3>
 
-*  **Alerts**: "Provide contextual feedback messages for typical user actions with the handful of available and flexible alert messages."<a href="#biblio">²</a>
+<a href="#before">Before Start</a>  
+<a href="#intro">Introduction</a>  
+<a href="#components">Components</a>  
+<a href="#examples">Code and Image Examples</a>  
 
-<h6 align="center">Code Sample</h6>
+---
+
+<a name="before"><h3>Before Start:</h3></a>
+
+Before diving into Bootstrap it is ~~REQUIRED~~ recommended to check these sections:
+
+*  [**HTML**](https://github.com/ItaloSSilva19/webdev/tree/master/HTML)  
+*  [**CSS**](https://github.com/ItaloSSilva19/webdev/tree/master/CSS)  
+*  [**JAVASCRIPT**](https://github.com/ItaloSSilva19/webdev/tree/master/JAVASCRIPT)  
+
+To **use Bootstrap here**, there is **NO** need to download or install anything. Just go to [Bootstrap site](https://www.bootstrapdash.com/use-bootstrap-with-html/) and use **Bootstrap CDN**(Content Delivery Network). This means that you have to embed bootstrap links to your HTML file.
+
+---
+
+<a name="intro"><h3>Introduction</h3></a>
+
+Bootstrap, according to its page, is the **most popular Javascript and CSS framework for building responsive, mobile-first sites**, and it is currently at the 4.5 version<a href="#biblio">¹</a>. This means that *bootstrap styling and scripting will accommodate any screen size device*. Also, with bootstrap, you have to copy and paste the template code of a component that you want to apply to your website. Moreover, to make the job easier, it is possible to purchase the themes offered. Although the fact that bootstrap can be applied fast and easy, to master the functionalities of this framework might be a little tricky. 
+
+---
+
+<a name="components"><h3>Components:</h3></a>
+
+*  **Alerts**: "Provide contextual feedback messages for typical user actions with the handful of available and flexible alert messages."<a href="#biblio">²</a>  
+*  **Buttons**: "Use Bootstrap’s custom button styles for actions in forms, dialogs, and more with support for multiple sizes, states, and more."<a href="#biblio">³</a>  
+*  **Card**: "A card is a flexible and extensible content container. It includes options for headers and footers, a wide variety of content, contextual background colors, and powerful display options."<a href="#biblio">⁴</a>  
+*  **Forms**: "Examples and usage guidelines for form control styles, layout options, and custom components for creating a wide variety of forms."<a href="#biblio">⁵</a>  
+*  **Jumbotron**: "A lightweight, flexible component that can optionally extend the entire viewport to showcase key marketing messages on your site."<a href="#biblio">⁶</a>  
+*  **Navbar**: "Bootstrap’s powerful, responsive navigation header, the navbar. Includes support for branding, navigation, and more."<a href="#biblio">⁷</a>  
+*  **Popovers**: "The Popover (...) is a pop-up box that appears when the user clicks on an element. The difference is that the popover can contain much more content." <a href="#biblio">⁸</a>  
+
+---
+
+<a name="examples"><h3>Code and Image Examples:</h3></a>
+
+**Alert:**
+
+<img src="https://urless.in/ggIHn"></img>
+<h6 align="center">Code Sample:</h6>
 
 ```
 <div class="alert alert-primary" role="alert">
@@ -16,24 +56,20 @@ Bootstrap, according to its own page, is the **most popular Javascript and CSS f
 </div>
 ```
 
-<img src="https://urless.in/ggIHn"><p align="center"><sup>Alert sample</sup></p></img>
 
----
+**Button:**
 
-*  **Buttons**: "Use Bootstrap’s custom button styles for actions in forms, dialogs, and more with support for multiple sizes, states, and more."<a href="#biblio">³</a>
-
-<h6 align="center">Code Sample</h6>
+<img src="https://urless.in/z6Co3"></img>
+<h6 align="center">Code Sample:</h6>
 
 ```
 <button type="button" class="btn btn-primary">Primary</button>
 ```
 
-<img src="https://urless.in/z6Co3"><p align="center"><sup>Button sample</sup></p></img>
 
----
+**Card:**
 
-*  **Card**: "A card is a flexible and extensible content container. It includes options for headers and footers, a wide variety of content, contextual background colors, and powerful display options."<a href="#biblio">⁴</a>
-
+<img src="https://urless.in/RUBbG" width="200%"></img>
 <h6 align="center">Code Sample</h6>
 
 ```
@@ -47,12 +83,10 @@ Bootstrap, according to its own page, is the **most popular Javascript and CSS f
 </div>
 ```
 
-<img src="https://urless.in/RUBbG" width="200%"><p align="center"><sup>Card sample</sup></p></img>
 
----
+**Form:**
 
-*  **Forms**: "Examples and usage guidelines for form control styles, layout options, and custom components for creating a wide variety of forms."<a href="#biblio">⁵</a>
-
+<img src="https://urless.in/563MS"></img>
 <h6 align="center">Code Sample</h6>
 
 ```
@@ -74,12 +108,10 @@ Bootstrap, according to its own page, is the **most popular Javascript and CSS f
 </form>
 ```
 
-<img src="https://urless.in/563MS"><p align="center"><sup>Form sample</sup></p></img>
 
----
+**Jumbotron:**
 
-*  **Jumbotron**: "A lightweight, flexible component that can optionally extend the entire viewport to showcase key marketing messages on your site."<a href="#biblio">⁶</a>
-
+<img src="https://urless.in/mjvSo" width="150%"></img>
 <h6 align="center">Code Sample</h6>
 
 ```
@@ -92,12 +124,10 @@ Bootstrap, according to its own page, is the **most popular Javascript and CSS f
 </div>
 ```
 
-<img src="https://urless.in/mjvSo" width="150%"><p align="center"><sup>Jumbotron sample</sup></p></img>
 
----
+**Navbar:**
 
-*  **Navbar**: "Bootstrap’s powerful, responsive navigation header, the navbar. Includes support for branding, navigation, and more."<a href="#biblio">⁷</a>
-
+<img src="https://urless.in/QbFXY"></img>
 <h6 align="center">Code Sample</h6>
 
 ```
@@ -137,28 +167,24 @@ Bootstrap, according to its own page, is the **most popular Javascript and CSS f
 </nav>
 ```
 
-<img src="https://urless.in/QbFXY"><p align="center"><sup>Navbar sample</sup></p></img>
 
----
+**Popover:**
 
-*  **Popovers**: "The Popover plugin is similar to tooltips; it is a pop-up box that appears when the user clicks on an element. The difference is that the popover can contain much more content." <a href="#biblio">⁸</a>
-
+<img src="https://urless.in/LiuCO" width="150%"></img>
 <h6 align="center">Code Sample</h6>
 
 ```
 <button type="button" class="btn btn-lg btn-danger" data-toggle="popover" title="Popover title" data-content="And here's some amazing content. It's very engaging. Right?">Click to toggle popover</button>
 ```
 
-<img src="https://urless.in/LiuCO" width="150%"><p align="center"><sup>Popover sample</sup></p></img>
-
 All of these components were used to build the project and the files in this folder, check it out or go to bootstrap web page to know more about it.
 To check the **complete Bootstrap documentation**, [<sup>**click here**</sup>](https://getbootstrap.com/docs/4.5/getting-started/introduction/)
 
 ---
 
-<h3 align="center">Table of Content:</h3>
+<h3>Exercises and Project:</h3>
 
-*  <h5>Files:</h5>
+*  <h5>Exercises:</h5>
 
 *  *  **-bootstrap.html:** How to apply the bootstrap in an HTML file, using a grid;
 *  *  **-form&tables.html:** How to apply forms and tables using bootstrap;
@@ -167,11 +193,11 @@ To check the **complete Bootstrap documentation**, [<sup>**click here**</sup>](h
 	
 *  <h5>Project:</h5>	
 	
-*  *  -[**Project_App_Landing_page:**](https://github.com/ItaloSSilva19/webdev/tree/master/BOOTSTRAP/Project_App_Landing_Page) The section project. Open the folder for more info.
+*  *  -[**Project_App_Landing_page:**](https://github.com/ItaloSSilva19/webdev/tree/master/BOOTSTRAP/Project_App_Landing_Page) The section project. The goal was to create an Landing page for an app. Open the folder to know more about it.
 
 ---
 
-<h3 align="center"><a name="biblio">Bibliography</a>:</h3>
+<h3><a name="biblio">References</a>:</h3>
 
 ¹ BUILD fast, responsive sites with Bootstrap. Available on: https://getbootstrap.com/. Access on: set. 03 2020.  
 ² ALERTS. Available on: https://getbootstrap.com/docs/4.5/components/alerts/. Access on: sep. 03 2020.  
