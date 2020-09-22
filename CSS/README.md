@@ -6,10 +6,10 @@
 
 <h3>Contents</h3>
 
-<a href="#intro">Introduction</a>
-<a href="#HWA">HOW TO APPLY CSS</a>
-<a href="#working">Working with CSS</a>
-<a href="#exe">Exercises and Project</a>
+<a href="#intro">Introduction</a>  
+<a href="#HWA">HOW TO APPLY CSS</a>  
+<a href="#working">Working with CSS</a>  
+<a href="#exe">Exercises and Project</a>  
 
 ---
 
