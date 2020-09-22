@@ -2,8 +2,6 @@
 
 <h2>Bootstrap Section</h2>
 
----
-
 <h3>Content</h3>
 
 <a href="#before">Before Start</a>  
@@ -27,7 +25,7 @@ To **use Bootstrap here**, there is **NO** need to download or install anything.
 
 <a name="intro"><h3>Introduction</h3></a>
 
-Bootstrap, according to its page, is the **most popular Javascript and CSS framework for building responsive, mobile-first sites**, and it is currently at the 4.5 version<a href="#biblio">¹</a>. This means that *bootstrap styling and scripting will accommodate any screen size device*. Also, with bootstrap, you have to copy and paste the template code of a component that you want to apply to your website. Moreover, to make the job easier, it is possible to purchase the themes offered. Although the fact that bootstrap can be applied fast and easy, to master the functionalities of this framework might be a little tricky. 
+Bootstrap, according to its page, is the **most popular Javascript and CSS framework for building responsive, mobile-first sites**, and it is currently at the 4.5 version<a href="#biblio">¹</a>. This means that *bootstrap styling and scripting will accommodate any screen size device*. Also,  the bootstrap code is understandable. So, **to use bootstrap, copy and paste the template code of a component that you want to apply to your website**. After that, make the adjustments to fulfill your needs. Moreover, to make the job easier, it is possible to purchase the themes offered. Although the fact that bootstrap can be applied fast and easy, to master the functionalities of this framework might be a little tricky. 
 
 ---
 
@@ -37,9 +35,10 @@ Bootstrap, according to its page, is the **most popular Javascript and CSS frame
 *  **Buttons**: "Use Bootstrap’s custom button styles for actions in forms, dialogs, and more with support for multiple sizes, states, and more."<a href="#biblio">³</a>  
 *  **Card**: "A card is a flexible and extensible content container. It includes options for headers and footers, a wide variety of content, contextual background colors, and powerful display options."<a href="#biblio">⁴</a>  
 *  **Forms**: "Examples and usage guidelines for form control styles, layout options, and custom components for creating a wide variety of forms."<a href="#biblio">⁵</a>  
-*  **Jumbotron**: "A lightweight, flexible component that can optionally extend the entire viewport to showcase key marketing messages on your site."<a href="#biblio">⁶</a>  
-*  **Navbar**: "Bootstrap’s powerful, responsive navigation header, the navbar. Includes support for branding, navigation, and more."<a href="#biblio">⁷</a>  
-*  **Popovers**: "The Popover (...) is a pop-up box that appears when the user clicks on an element. The difference is that the popover can contain much more content." <a href="#biblio">⁸</a>  
+*  **Tables**: "opt-in styling of tables (given their prevalent use in JavaScript plugins) with Bootstrap."<a href="#biblio">⁶</a>  
+*  **Jumbotron**: "A lightweight, flexible component that can optionally extend the entire viewport to showcase key marketing messages on your site."<a href="#biblio">⁷</a>  
+*  **Navbar**: "Bootstrap’s powerful, responsive navigation header, the navbar. Includes support for branding, navigation, and more."<a href="#biblio">⁸</a>  
+*  **Popovers**: "The Popover (...) is a pop-up box that appears when the user clicks on an element. The difference is that the popover can contain much more content."<a href="#biblio">⁹</a>  
 
 ---
 
@@ -47,7 +46,7 @@ Bootstrap, according to its page, is the **most popular Javascript and CSS frame
 
 **Alert:**
 
-<img src="https://urless.in/ggIHn"></img>
+![alert sample](https://www.5balloons.info/wp-content/uploads/2020/01/Screenshot-2020-01-30-at-3.49.25-PM.png)  
 <h6 align="center">Code Sample:</h6>
 
 ```
@@ -59,7 +58,7 @@ Bootstrap, according to its page, is the **most popular Javascript and CSS frame
 
 **Button:**
 
-<img src="https://urless.in/z6Co3"></img>
+![Button sample](https://www.bootstrap-example.com/wp-content/uploads/2018/12/bootstrap-button-style.jpg)
 <h6 align="center">Code Sample:</h6>
 
 ```
@@ -69,7 +68,8 @@ Bootstrap, according to its page, is the **most popular Javascript and CSS frame
 
 **Card:**
 
-<img src="https://urless.in/RUBbG" width="200%"></img>
+<img src="https://mdbootstrap.com/wp-content/uploads/2015/08/cards.jpg" width="200%"> </img>
+
 <h6 align="center">Code Sample</h6>
 
 ```
@@ -106,6 +106,45 @@ Bootstrap, according to its page, is the **most popular Javascript and CSS frame
   </div>
   <button type="submit" class="btn btn-primary">Submit</button>
 </form>
+```
+
+
+**Table:**
+
+<img src="https://mdbootstrap.com/wp-content/uploads/2015/08/table-fb.jpg"></img>
+<h6 align="center">Code Sample</h6>
+
+```
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">First</th>
+      <th scope="col">Last</th>
+      <th scope="col">Handle</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Mark</td>
+      <td>Otto</td>
+      <td>@mdo</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Jacob</td>
+      <td>Thornton</td>
+      <td>@fat</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>Larry</td>
+      <td>the Bird</td>
+      <td>@twitter</td>
+    </tr>
+  </tbody>
+</table>
 ```
 
 
@@ -196,7 +235,6 @@ To check the **complete Bootstrap documentation**, [<sup>**click here**</sup>](h
 *  *  -[**Project_App_Landing_page:**](https://github.com/ItaloSSilva19/webdev/tree/master/BOOTSTRAP/Project_App_Landing_Page) The section project. The goal was to create an Landing page for an app. Open the folder to know more about it.
 
 ---
-
 <h3><a name="biblio">References</a>:</h3>
 
 ¹ BUILD fast, responsive sites with Bootstrap. Available on: https://getbootstrap.com/. Access on: set. 03 2020.  
@@ -204,8 +242,9 @@ To check the **complete Bootstrap documentation**, [<sup>**click here**</sup>](h
 ³ BUTTONS. Available on: https://getbootstrap.com/docs/4.5/components/buttons/. Access on: sep. 03 2020.  
 ⁴ CARDS. Available on: https://getbootstrap.com/docs/4.5/components/card/. Access on: sep. 03 2020.  
 ⁵ FORMS. Available on: https://getbootstrap.com/docs/4.5/components/forms/. Access on: sep. 03 2020.  
-⁶ JUMBOTRON. Available on: https://getbootstrap.com/docs/4.5/components/jumbotron/. Access on: sep. 03 2020.  
-⁷ NAVBAR. Available on: https://getbootstrap.com/docs/4.5/components/navbar/. Access on: sep. 03 2020.  
-⁸ POPOVERS. Available on: https://www.w3schools.com/bootstrap/bootstrap_popover.asp#:~:text=The%20Popover%20plugin%20is%20similar,user%20clicks%20on%20an%20element.&text=Tip%3A%20Plugins%20can%20be%20included,js%22%20or%20%22bootstrap. Access on: sep. 03 2020.  
+⁶ TABLES. Available on: https://getbootstrap.com/docs/4.5/content/tables/. Access on: sep. 22 2020.  
+⁷ JUMBOTRON. Available on: https://getbootstrap.com/docs/4.5/components/jumbotron/. Access on: sep. 03 2020.  
+⁸ NAVBAR. Available on: https://getbootstrap.com/docs/4.5/components/navbar/. Access on: sep. 03 2020.  
+⁹ POPOVERS. Available on: https://www.w3schools.com/bootstrap/bootstrap_popover.asp#:~:text=The%20Popover%20plugin%20is%20similar,user%20clicks%20on%20an%20element.&text=Tip%3A%20Plugins%20can%20be%20included,js%22%20or%20%22bootstrap. Access on: sep. 03 2020.  
 
 
