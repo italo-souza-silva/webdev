@@ -1,8 +1,6 @@
 # WEBDEV REPOSITORY
 
-<h2>CSS Section</h2>
-
----
+<h2 align="center">CSS Section</h2>
 
 <h3>Contents</h3>
 
