@@ -38,7 +38,7 @@ This project consists of a contact form where the users could send an email to s
  *  **Get Method**: "PHP $_GET is a PHP super global variable which is used to collect form data after submitting an HTML form with method="get". $_GET can also collect data sent in the URL."<a href="#biblio">¹</a>
  *  **Post Method**: "PHP $_POST is a PHP super global variable which is used to collect form data after submitting an HTML form with method="post". $_POST is also widely used to pass variables."² Also, the post variable is safer than get. If there is the need to store sensitive data, always use the post method.
  
- **PHP Database Connection**: To connect to a database, it is a little tricky. To do that, it is needed to open a connection.³(w3school) In the [MySQL folder project](https://github.com/ItaloSSilva19/webdev/tree/master/MYSQL/Diary), there is a more elaborated way to do this. check it out!
+ **PHP Database Connection**: To connect to a database, it is a little tricky. To do that, it is needed to open a connection.³(w3school) Check how to do it in the <a href="#exe">code sample section</a>
  
  <sup>To learn more about php, check the links bellow!</sup>
  
@@ -148,6 +148,17 @@ while ($i < $arrayLength) {
     $i++;
 }
 ```
+*  *  **-Open a connection**: *How to open a connection:*
+
+```
+<?php
+	$link = mysqli_connect("host","my_user","my_password","my_db");
+		if (mysqli_connect_error()) {
+			die ("Database Connection Error");
+		}
+?>
+```
+
 
 *  <h5>Project:</h5>
 
