@@ -1,8 +1,20 @@
 # WEBDEV REPOSITORY
 
-<h2 align="center">Udemy's jQuery Section</h2>
+<h2>jQuery Section</h2>
 
-Jquery is a Javascript library. It can be used to do more with less coding.<a href="#biblio">¹</a> But there are differences between them. While "JavaScript and jQuery are mentioned so interchangeably, it can be confusing to separate the two. Just remember: JavaScript is a standalone programming language, while jQuery is a collection of JavaScript code (not its own language)"<a href="#biblio">²</a>(MORRIS).  
+<h3>Content</h3>
+
+<a href="#intro">Introduction</a>  
+<a href="#exe">Exercises and Project: Code Sample and Images</a>  
+<a href="#biblio">References</a>  
+
+
+
+---
+
+<a name="intro"><h3>Introduction</h3></a>
+
+To use this sections, just download the files and open it in your browser. **Jquery is a Javascript library.** It can be used to do more with less coding.<a href="#biblio">¹</a> But there are differences between them. While "JavaScript and jQuery are mentioned so interchangeably, it can be confusing to separate the two. Just remember: JavaScript is a standalone programming language, while jQuery is a collection of JavaScript code (not its own language)"<a href="#biblio">²</a>(MORRIS).  
 
 This library makes it **easier** to do things like:
 -HTML document transversal and manipulation;
@@ -11,11 +23,13 @@ This library makes it **easier** to do things like:
 -Ajax.
 
 
-In this course, it was made an introduction to Jquery. Here, in these files, there are examples of animating, ajax, how to detect a click, changing the style, etc. At the end of this section, there is a project.
+In this course, it was made an introduction to Jquery. Here, in these files, there are examples of animating, ajax, how to detect a click, changing the style, etc. At the end of this section, there is a project. Also check the [jQuery documentation](https://api.jquery.com/) to learn more about it.
 
-<h3 align="center">Table of Content:</h3>
+---
 
-*  <h5>Files:</h5>
+<a name="exe"><h3>Exercises and Project: Code Sample and Images</h3></a>
+
+*  <h5>Exercises:</h5>
 
 *  *  **-ajax.html:** *How to use ajax.*
 
@@ -91,6 +105,6 @@ function isEmail(email) {
 
 ---
 
-<h3 align="center"><a name="biblio">Bibliography</a>:</h3>
+<a name="biblio"><h3>References</h3></a>
 
 ¹ ² MORRIS, Scott. TECH 101: WHAT IS JQUERY, AND WHAT IS IT USED FOR? Available at: https://skillcrush.com/blog/what-is-jquery-used-for/. Accessed on: 07 sep. 2020.
