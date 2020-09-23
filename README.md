@@ -1,8 +1,6 @@
 # WEBDEV REPOSITORY
 
----
-
-<h2>Contents</h2>
+<h3>Contents</h3>
 
 *  <a href="#intro">Introduction</a>  
 *  <a href="#internet">The internet</a>  
@@ -60,9 +58,9 @@ To learn more about **web development** and **what is front-end/back-end**, chec
 *  -2 [**CSS**](https://github.com/ItaloSSilva19/webdev/tree/master/CSS): "describes how HTML elements are to be displayed."<a href="#biblio">⁴</a>(W3SCHOOLS)  
 *  -3 [**JAVASCRIPT**](https://github.com/ItaloSSilva19/webdev/tree/master/JAVASCRIPT): "is a lightweight, interpreted, or just-in-time compiled programming language with first-class functions."<a href="#biblio">⁵</a>(MOZILLA)  
 *  -4 [**JQUERY**](https://github.com/ItaloSSilva19/webdev/tree/master/JQUERY): "is a fast, small, and feature-rich JavaScript library."<a href="#biblio">⁶</a>(JQUERY)  
-*  -5 [**BOOTSTRAP**](https://github.com/ItaloSSilva19/webdev/tree/master/BOOTSTRAP): "the world’s most popular front-end open source toolkit"<a href="#biblio">⁷</a>(BOOTSTRAP)  
-*  -6 [**MYSQL**](https://github.com/ItaloSSilva19/webdev/tree/master/MYSQL): "is a fully managed database service to deploy cloud-native applications using the world’s most popular open source database."<a href="#biblio">⁸</a>(MYSQL)  
-*  -7 [**PHP**](https://github.com/ItaloSSilva19/webdev/tree/master/PHP): "is a widely-used open source general-purpose scripting language that is especially suited for web development"<a href="#biblio">⁹</a>(PHP.NET)  
+*  -5 [**BOOTSTRAP**](https://github.com/ItaloSSilva19/webdev/tree/master/BOOTSTRAP): "the world’s most popular front-end open source toolkit"<a href="#biblio">⁷</a>(BOOTSTRAP) 
+*  -6 [**PHP**](https://github.com/ItaloSSilva19/webdev/tree/master/PHP): "is a widely-used open source general-purpose scripting language that is especially suited for web development"<a href="#biblio">⁸</a>(PHP.NET)  
+*  -7 [**MYSQL**](https://github.com/ItaloSSilva19/webdev/tree/master/MYSQL): "is a fully managed database service to deploy cloud-native applications using the world’s most popular open source database."<a href="#biblio">⁹</a>(MYSQL)  
 *  -8 [**PYTHON**](https://github.com/ItaloSSilva19/webdev/tree/master/PYTHON): is a really versatile programming language. Here it will be shown the it bases and the Django fullstack framework.  
 *  -9 [**API**](https://github.com/ItaloSSilva19/webdev/tree/master/API): "is the acronym for Application Programming Interface, which is a software intermediary that allows two applications to talk to each other."<a href="#biblio">¹⁰</a>(MULESOFT, 2020) 
 
@@ -77,6 +75,6 @@ To learn more about **web development** and **what is front-end/back-end**, chec
 ⁵ WEB: Javascript. Available on: https://developer.mozilla.org/en-US/docs/Web/JavaScript. Access on: sep. 02 2020.  
 ⁶ WHAT is jQuery? Available on: https://jquery.com/. Access on: sep. 02 2020.  
 ⁷ BUILD fast, responsive sites with Bootstrap. Available on: https://getbootstrap.com/. Access on: sep. 02 2020.  
-⁸ MYSQL Database Service. Disponível em: https://www.mysql.com/. Access on: sep. 02 2020.  
-⁹ WHAT is PHP? Available on: https://www.php.net/manual/en/intro-whatis.php. Access on: sep. 02 2020.  
+⁸ WHAT is PHP? Available on: https://www.php.net/manual/en/intro-whatis.php. Access on: sep. 02 2020.  
+⁹ MYSQL Database Service. Disponível em: https://www.mysql.com/. Access on: sep. 02 2020.  
 ¹⁰WHAT is an API? (Application Programming Interface). Available on: https://www.mulesoft.com/resources/api/what-is-an-api. Access on: sep. 02 2020.  
